@@ -1,5 +1,5 @@
 # Netpractice
-# Table of Contents
+## Table of Contents
 *  Important concepts
     *   IP address
     *    Subnet mask
@@ -7,7 +7,7 @@
     *    Router
 *  Levels
 
-# Important Concepts
+## Important Concepts
 
 - IP Address
 
