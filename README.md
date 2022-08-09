@@ -150,7 +150,7 @@ Next hop: The next hop refers to the next closest router a packet can go through
   <b><a href="#top">↥ back to top</a></b>
 </div>
 </br>
-
+</details>
 ---
 
 <details>
@@ -163,4 +163,4 @@ Next hop: The next hop refers to the next closest router a packet can go through
   <b><a href="#top">↥ back to top</a></b>
 </div>
 </br>
-
+</details>
