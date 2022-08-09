@@ -141,13 +141,13 @@ Next hop: The next hop refers to the next closest router a packet can go through
 ## Leveles
 
 <details>
-                <summary>Level 1</summary>
-  <br>
-  <img src="https://github.com/K-zew/Netpractice/blob/main/level1/level1.png?raw=true" alt="level1">
-  <br>
-  <br>
- <div align="right">
-  <b><a href="#top">↥ back to top</a></b>
+ <summary>Level 1</summary>
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level1/level1.png?raw=true" alt="level1">
+   <br>
+   <br>
+  <div align="right">
+   <b><a href="#top">↥ back to top</a></b>
 </div>
 </br>
 </details>
@@ -155,13 +155,139 @@ Next hop: The next hop refers to the next closest router a packet can go through
 ---
 
 <details>
-               <summary>Level 2</summary>
-  <br>
-  <img src="https://github.com/K-zew/Netpractice/blob/main/level2/level2.png?raw=true" alt="level2">
-  <br>
-  <br>
- <div align="right">
-  <b><a href="#top">↥ back to top</a></b>
+ <summary>Level 1</summary>
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level1/level1.png?raw=true" alt="level1">
+   <br>
+   <br>
+  <div align="right">
+   <b><a href="#top">↥ back to top</a></b>
+</div>
+</br>
+</details>
+
+---
+
+<details>
+ <summary>Level 2</summary>
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level2/level2.png?raw=true" alt="level2">
+   <br>
+   <br>
+  <div align="right">
+   <b><a href="#top">↥ back to top</a></b>
+</div>
+</br>
+</details>
+
+---
+
+<details>
+ <summary>Level 3</summary>
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <br>
+   <br>
+  <div align="right">
+   <b><a href="#top">↥ back to top</a></b>
+</div>
+</br>
+</details>
+
+---
+
+<details>
+ <summary>Level 4</summary>
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level4/level4.png?raw=true" alt="level4">
+   <br>
+   <br>
+  <div align="right">
+   <b><a href="#top">↥ back to top</a></b>
+</div>
+</br>
+</details>
+
+---
+
+<details>
+ <summary>Level 5</summary>
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level5/level5.png?raw=true" alt="level5">
+   <br>
+   <br>
+  <div align="right">
+   <b><a href="#top">↥ back to top</a></b>
+</div>
+</br>
+</details>
+
+---
+
+<details>
+ <summary>Level 6</summary>
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level6/level6.png?raw=true" alt="level6">
+   <br>
+   <br>
+  <div align="right">
+   <b><a href="#top">↥ back to top</a></b>
+</div>
+</br>
+</details>
+
+---
+
+<details>
+ <summary>Level 7</summary>
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level7/level7.png?raw=true" alt="level7">
+   <br>
+   <br>
+  <div align="right">
+   <b><a href="#top">↥ back to top</a></b>
+</div>
+</br>
+</details>
+
+---
+
+<details>
+ <summary>Level 8</summary>
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level8/level8.png?raw=true" alt="level8">
+   <br>
+   <br>
+  <div align="right">
+   <b><a href="#top">↥ back to top</a></b>
+</div>
+</br>
+</details>
+
+---
+
+<details>
+ <summary>Level 9</summary>
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level9/level9.png?raw=true" alt="level9">
+   <br>
+   <br>
+  <div align="right">
+   <b><a href="#top">↥ back to top</a></b>
+</div>
+</br>
+</details>
+
+---
+
+<details>
+ <summary>Level 10</summary>
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level10/level10.png?raw=true" alt="level10">
+   <br>
+   <br>
+  <div align="right">
+   <b><a href="#top">↥ back to top</a></b>
 </div>
 </br>
 </details>
