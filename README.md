@@ -14,7 +14,7 @@
 # text in gray
 @@ text in purple (and bold)@@
 ```
-<span style="color:blue">some *blue* text</span>.## Important Concepts
+<span style="color:blue">## Important Concepts</span>.
 
 - IP Address
 
