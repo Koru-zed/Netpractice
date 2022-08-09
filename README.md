@@ -36,11 +36,12 @@ A private IP address is the address your network router assigns to your device. 
 
 When a network is connected to the internet, it cannot use an IP address from the reserved private IP addresses. The following ranges are reserved for private IP addresses:
 
+```
 192.168.0.0 – 192.168.255.255 (65,536 IP addresses)
 172.16.0.0 – 172.31.255.255   (1,048,576 IP addresses)
 10.0.0.0 – 10.255.255.255     (16,777,216 IP addresses)
 ↥ back to top
-
+```
 # Subnet Mask
 
 ///////
