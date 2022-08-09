@@ -7,8 +7,14 @@
     *    [Switch](#switch)
     *    [Router](#router)
 *  [Levels](#levels)
-
-`#0969DA`## Important Concepts
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+## Important Concepts
 
 - IP Address
 
