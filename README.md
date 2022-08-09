@@ -24,11 +24,11 @@
 
 ////
 
-IP is part of an internet protocol suite, which also includes the transmission control protocol. Together, these two are known as TCP/IP. The internet protocol suite governs rules for packetizing, addressing, transmitting, routing, and receiving data over networks.
+IP is part of an internet protocol suite, which also includes the transmission control protocol. Together, these two are known as [TCP/IP](#TCP/IP). The internet protocol suite governs rules for packetizing, addressing, transmitting, routing, and receiving data over networks.
 
 IP addressing is a logical means of assigning addresses to devices on a network. Each device connected to the internet requires a unique IP address.
 
-An IP address has two parts; one part identifies the host such as a computer or other device, and the other part identifies the network it belongs to. TCP/IP uses a subnet mask to separate them.
+An IP address has two parts; one part identifies the host such as a computer or other device, and the other part identifies the network it belongs to. TCP/IP uses a [subnet mask](#subnet-mask) to separate them.
 
 
 - IPv4 vs. IPv6
