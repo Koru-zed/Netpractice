@@ -1,9 +1,10 @@
 # Netpractice
+
 ## Table of Contents
 *  [Important concepts](#important-concepts)
     *   [IP address](#ip-address)
     *    [Subnet mask](#subnet-mask)
-    *    [Switch](switch)
+    *    [Switch](#switch)
     *    [Router](#router)
 *  [Levels](#levels)
 
