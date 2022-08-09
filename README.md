@@ -12,19 +12,7 @@ You will have to configure small-scale networks. To do so, it will be necessary 
     *    [Switch](#switch)
     *    [Router](#router)
 
-You will have to complete 10 levels :
-
-*  [Levels](#levels)
-    *    [level1](#level1)
-    *    [level2](#level2)
-    *    [level3](#level3)
-    *    [level4](#level4)
-    *    [level5](#level5)
-    *    [level6](#level6)
-    *    [level7](#level7)
-    *    [level8](#level8)
-    *    [level9](#level9)
-    *    [level10](#level10)
+You will have to complete 10 levels : *  [Levels](#levels)
 
 ## Important Concepts
 
