@@ -141,7 +141,7 @@ Next hop: The next hop refers to the next closest router a packet can go through
 ## Leveles
 
 <details>
-  <summary>Level 1</summary>
+                <summary>Level 1</summary>
   <br>
   <img src="https://github.com/K-zew/Netpractice/blob/main/level1/level1.png?raw=true" alt="level1">
   <br>
@@ -155,7 +155,7 @@ Next hop: The next hop refers to the next closest router a packet can go through
 ---
 
 <details>
-  <summary>Level 2</summary>
+               <summary>Level 2</summary>
   <br>
   <img src="https://github.com/K-zew/Netpractice/blob/main/level2/level2.png?raw=true" alt="level2">
   <br>
