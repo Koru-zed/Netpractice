@@ -11,8 +11,9 @@ You will have to configure small-scale networks. To do so, it will be necessary 
     *    [Subnet mask](#subnet-mask)
     *    [Switch](#switch)
     *    [Router](#router)
+    *    [Levels](#levels)
 
-You will have to complete 10 levels : *  [Levels](#levels)
+You will have to complete 10 levels :   [Levels](#levels)
 
 ## Important Concepts
 
