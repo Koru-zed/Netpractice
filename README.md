@@ -28,7 +28,7 @@ IP is part of an internet protocol suite, which also includes the transmission c
 
 IP addressing is a logical means of assigning addresses to devices on a network. Each device connected to the internet requires a unique IP address.
 
-An IP address has two parts; one part identifies the host such as a computer or other device, and the other part identifies the network it belongs to. TCP/IP uses a subnet mask to separate them.
+An IP address has two parts; one part identifies the host such as a computer or other device, and the other part identifies the network it belongs to. TCP/IP uses a [subnet mask](#subnet-mask) to separate them.
 
 
 - IPv4 vs. IPv6
