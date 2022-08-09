@@ -21,9 +21,8 @@
 ## Important Concepts
 
 - IP Address
+- <details>
 
-<details>
-  <summary>Level 2</summary>
   <br>
   <img src="https://github.com/K-zew/Netpractice/blob/main/level1/level1.png?raw=true" alt="level2">
   <br>
