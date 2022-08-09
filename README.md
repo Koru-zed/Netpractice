@@ -1,12 +1,18 @@
 # Netpractice
 
-## Table of Contents
-*  [Introduction](#introduction)
+## Intoduction
+
+This project is a general practical exercise to let you discover networking.
+You will have to configure small-scale networks. To do so, it will be necessary to understand this concepts.
+
 *  [Important concepts](#important-concepts)
     *   [IP address](#ip-address)
     *    [Subnet mask](#subnet-mask)
     *    [Switch](#switch)
     *    [Router](#router)
+
+You will have to complete 10 levels :
+
 *  [Levels](#levels)
     *    [level1](#level1)
     *    [level2](#level2)
@@ -18,11 +24,6 @@
     *    [level8](#level8)
     *    [level9](#level9)
     *    [level10](#level10)
-
-## Intoduction
-
-This project is a general practical exercise to let you discover networking.
-You will have to configure small-scale networks. To do so, it will be necessary to understand how TCP/IP addressing works.
 
 ## Important Concepts
 
