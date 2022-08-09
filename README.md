@@ -52,44 +52,51 @@ A subnet mask is a 32 bits (4 bytes) address used to distinguish between a netwo
 
 - Finding the network address
 The Interface A1 above has the following properties:
-
+```
 IP address | 104.198.241.125
 Mask       | 255.255.255.128  
+```
 To determine which portion of the IP address is the network address, we need to apply the mask to the IP address. Let's first convert the mask to its binary form:
-
+```
 Mask | 11111111.11111111.11111111.10000000
+```
 The bits of a mask that are 1 represent the network address, while the remaining bits of a mask that are 0 represent the host address. Let's now convert the IP address to its binary form:
-
+```
 IP address | 01101000.11000110.11110001.01111101
 Mask       | 11111111.11111111.11111111.10000000
+```
 We can now apply the mask to the IP address through a bitwise AND to find the network address of the IP:
-
+```
 Network address | 01101000.11000110.11110001.00000000
-Which translates to a network address of 104.198.241.0.
+```
+Which translates to a network address of `104.198.241.0`.
 
 
 - Finding the range of host addresses
 To determine what host addresses we can use on our network, we have to use the bits of our IP address dedicated to the host address. Let's use our previous IP address and mask:
 
+```
 IP address | 01101000.11000110.11110001.01111101
 Mask       | 11111111.11111111.11111111.10000000
+```
 The possible range of our host addresses are expressed through the last 7 bits of the mask which are all 0. Therefore, the range of host addresses is:
-
+```
 BINARY  | 0000000 - 1111111
 DECIMAL | 0 - 127
-To get the range of possible IP addresses for our network, we add the range of host address to the network address. Our range of possible IP addresses becomes 104.198.241.0 - 104.198.241.127.
+```
+To get the range of possible IP addresses for our network, we add the range of host address to the network address. Our range of possible IP addresses becomes `104.198.241.0 - 104.198.241.127`.
 
 HOWEVER, the extremities of the range are reserved for specific uses and cannot be given to an interface:
-
+```
 104.198.241.0   | Reserved to represent the network address.
 104.198.241.127 | Reserved as the broadcast address; used to send packets to all hosts of a network.
-Therefore, our real IP range becomes 104.198.241.1 - 104.198.241.126, which could have been found using an IP calculator.
-
+```
+Therefore, our real IP range becomes `104.198.241.1 - 104.198.241.126`, which could have been found using an IP calculator.
 
 * CIDR Notation (/24)
 The mask can also be represented with the Classless Inter-Domain Routing (CIDR). This form represents the mask as a slash "/", followed by the number of bits that serve as the network address.
 
-Therefore, the mask in the example above of 255.255.255.128, is equivalent to a mask of /25 using the CIDR notation, since 25 bits out of 32 bits represent the network address.
+Therefore, the mask in the example above of `255.255.255.128`, is equivalent to a mask of /25 using the CIDR notation, since 25 bits out of 32 bits represent the network address.
 
 ↥ back to top
 
