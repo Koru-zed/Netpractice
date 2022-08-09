@@ -7,16 +7,16 @@
     *    [Switch](#switch)
     *    [Router](#router)
 *  [Levels](#levels)
-    *    [level1](level1/)
-    *    [level2](level2/)
-    *    [level3](level3/)
-    *    [level4](level4/)
-    *    [level5](level5/)
-    *    [level6](level6/)
-    *    [level7](level7/)
-    *    [level8](level8/)
-    *    [level9](level9/)
-    *    [level10](level10/)
+    *    [level1](#level1)
+    *    [level2](#level2)
+    *    [level3](#level3)
+    *    [level4](#level4)
+    *    [level5](#level5)
+    *    [level6](#level6)
+    *    [level7](#level7)
+    *    [level8](#level8)
+    *    [level9](#level9)
+    *    [level10](#level10)
 
 ## Important Concepts
 
@@ -139,20 +139,6 @@ Destination: The destination specifies a network address on which a host is the 
 Next hop: The next hop refers to the next closest router a packet can go through. It is the IP address of the next router on the packet's way. Every single router maintains its routing table with a next hop address.
 
 ## Leveles
-
-<details>
- <summary>Level 1</summary>
-   <br>
-   <img src="https://github.com/K-zew/Netpractice/blob/main/level1/level1.png?raw=true" alt="level1">
-   <br>
-   <br>
-  <div align="right">
-   <b><a href="#top">↥ back to top</a></b>
-</div>
-</br>
-</details>
-
----
 
 <details>
  <summary>Level 1</summary>
