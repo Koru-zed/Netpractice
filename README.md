@@ -143,7 +143,7 @@ Just as the switch connects multiple devices on a single network, the router con
 Since the router separates different networks, the range of possible IP addresses on one of its interface must not overlap with the range of its other interfaces. An overlap in the IP address range would imply that the interfaces are on the same network.
 
 
-* Routing Table
+### Routing Table
 //////
 
 
