@@ -7,14 +7,8 @@
     *    [Switch](#switch)
     *    [Router](#router)
 *  [Levels](#levels)
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
-<span style="color:blue">## Important Concepts</span>.
+
+## <span style="color:blue">Important Concepts</span>.
 
 - IP Address
 
