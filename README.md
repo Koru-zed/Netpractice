@@ -3,11 +3,11 @@
 ## Intoduction
 
 This project is a general practical exercise to let you discover networking.
-
 You will have to configure small-scale networks. To do so, it will be necessary to understand this concepts.
 
 *  [Important concepts](#important-concepts)
-    *   [IP address](#ip-address)
+    *    [TCP](#tcp)  
+    *    [IP address](#ip-address)
     *    [Subnet mask](#subnet-mask)
     *    [Switch](#switch)
     *    [Router](#router)
@@ -27,6 +27,13 @@ You will have to complete 10 levels :
     *    [level10](#level10)
 
 ## Important Concepts
+
+### TCP
+
+TCP stands for Transmission Control Protocol a communications standard that enables application programs and computing devices to exchange messages over a network. It is designed to send packets across the internet and ensure the successful delivery of data and messages over networks.
+
+TCP organizes data so that it can be transmitted between a server and a client. It guarantees the integrity of the data being communicated over a network. Before it transmits data, TCP establishes a connection between a source and its destination, which it ensures remains live until communication begins. It then breaks large amounts of data into smaller packets, while ensuring data integrity is in place throughout the process, toensures end-to-end data delivery without loss any of data.
+As a result, high-level protocols that need to transmit data all use TCP Protocol.Examples include peer-to-peer sharing methods like File Transfer Protocol (FTP), Secure Shell (SSH)...
 
 ### IP Address
 
