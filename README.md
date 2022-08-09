@@ -1,6 +1,7 @@
 # Netpractice
 
 ## Table of Contents
+*  [Introduction](#introduction)
 *  [Important concepts](#important-concepts)
     *   [IP address](#ip-address)
     *    [Subnet mask](#subnet-mask)
@@ -18,9 +19,14 @@
     *    [level9](#level9)
     *    [level10](#level10)
 
+## Intoduction
+
+This project is a general practical exercise to let you discover networking.
+You will have to configure small-scale networks. To do so, it will be necessary to understand how TCP/IP addressing works.
+
 ## Important Concepts
 
-- IP Address
+### IP Address
 
 IP is part of an internet protocol suite, which also includes the transmission control protocol. Together, these two are known as [TCP/IP](#TCP/IP). The internet protocol suite governs rules for packetizing, addressing, transmitting, routing, and receiving data over networks.
 
@@ -29,7 +35,7 @@ IP addressing is a logical means of assigning addresses to devices on a network.
 An IP address has two parts; one part identifies the host such as a computer or other device, and the other part identifies the network it belongs to. TCP/IP uses a [subnet mask](#subnet-mask) to separate them.
 
 
-- IPv4 vs. IPv6
+### IPv4 vs. IPv6
 
 IP addresses come in 2 versions--IPv4 and IPv6:
 /////
@@ -109,7 +115,7 @@ Therefore, the mask in the example above of `255.255.255.128`, is equivalent to 
 
 ↥ back to top
 
-# Switch
+### Switch
 
 
 ///////
@@ -118,7 +124,7 @@ A switch connects multiple devices together in a single network. Unlike a router
 
 ↥ back to top
 
-# Router
+### Router
 
 ///////
 
