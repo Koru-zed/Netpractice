@@ -14,7 +14,7 @@
 # text in gray
 @@ text in purple (and bold)@@
 ```
--## Important Concepts
+`red`## Important Concepts
 
 - IP Address
 
