@@ -2,10 +2,10 @@
 ## Table of Contents
 *  [Important concepts](#important-concepts)
     *   [IP address](#ip-address)
-    *    [Subnet mask](##subnet-mask)
-    *    [Switch](#####switch)
-    *    [Router](router)
-*  [Levels](levels)
+    *    [Subnet mask](#subnet-mask)
+    *    [Switch](#switch)
+    *    [Router](#router)
+*  [Levels](#levels)
 
 ## Important Concepts
 
