@@ -1,11 +1,11 @@
 # Netpractice
 ## Table of Contents
-*  Important concepts
-    *   IP address
-    *    Subnet mask
-    *    Switch
-    *    Router
-*  Levels
+*  [Important concepts](#important-concepts)
+    *   [IP address](#ip-address)
+    *    [Subnet mask](##subnet-mask)
+    *    [Switch](#####switch)
+    *    [Router](router)
+*  [Levels](levels)
 
 ## Important Concepts
 
