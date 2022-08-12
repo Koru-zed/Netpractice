@@ -1,4 +1,4 @@
-# Netpractice
+# Netpracticejgj
 
 ## Intoduction
 
@@ -34,10 +34,10 @@ IP addressing is a logical means of assigning addresses to devices on a network.
 An IP address has two parts; one part identifies the host such as a computer or other device, and the other part identifies the network it belongs to. TCP/IP uses a [subnet mask](#subnet-mask) to separate them.
 
 <b>
-
   <div align="right">
+   <b><a href="#top">↥ back to top</a>
+</b>
 
-   <b><a href="#top">↥ back to top</a></b>
 ### IPv4 vs. IPv6
 
 IP addresses come in 2 versions--IPv4 and IPv6:
@@ -62,7 +62,9 @@ When a network is connected to the internet, it cannot use an IP address from th
 ```
 <b>
   <div align="right">
-   <b><a href="#top">↥ back to top</a></b>
+   <b><a href="#top">↥ back to top</a>
+</b>
+
 # Subnet Mask
 
 ///////
@@ -121,7 +123,8 @@ Therefore, the mask in the example above of `255.255.255.128`, is equivalent to 
 
 <b>
   <div align="right">
-   <b><a href="#top">↥ back to top</a></b>
+   <b><a href="#top">↥ back to top</a>
+</b>
 
 ### Switch
 
@@ -132,7 +135,8 @@ A switch connects multiple devices together in a single network. Unlike a router
 
 <b>
   <div align="right">
-   <b><a href="#top">↥ back to top</a></b>
+   <b><a href="#top">↥ back to top</a>
+</b>
 
 ### Router
 
@@ -145,7 +149,8 @@ Since the router separates different networks, the range of possible IP addresse
 
 <b>
   <div align="right">
-   <b><a href="#top">↥ back to top</a></b>
+   <b><a href="#top">↥ back to top</a>
+</b>
      
 ### Routing Table
 //////
@@ -157,9 +162,10 @@ Destination: The destination specifies a network address on which a host is the 
 
 Next hop: The next hop refers to the next closest router a packet can go through. It is the IP address of the next router on the packet's way. Every single router maintains its routing table with a next hop address.
 
-     <b>
+ <b>
   <div align="right">
-   <b><a href="#top">↥ back to top</a></b>
+   <b><a href="#top">↥ back to top</a>
+</b>
      
 ## Levels
 
@@ -190,7 +196,7 @@ The solution will be anything in the range of **211.191.0.0 - 211.191.255.255**,
    <b><a href="#top">↥ back to top</a></b>
 </div>
 </br>
-</details>
+</details> 
 
 ---
 
