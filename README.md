@@ -25,7 +25,7 @@ As a result, high-level protocols that need to transmit data all use TCP Protoco
 
 ### IP Address
 
-IP is part of an internet protocol suite, which also includes the transmission control protocol. Together, these two are known as [TCP/IP](#TCP/IP). The internet protocol suite governs rules for packetizing, addressing, transmitting, routing, and receiving data over networks.
+IP is part of an internet protocol suite, which also includes the transmission control protocol. Together, these two are known as TCP/IP. The internet protocol suite governs rules for packetizing, addressing, transmitting, routing, and receiving data over networks.
 
 IP addressing is a logical means of assigning addresses to devices on a network. Each device connected to the internet requires a unique IP address.
 
