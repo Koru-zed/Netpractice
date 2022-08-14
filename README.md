@@ -207,7 +207,7 @@ Next hop: The next hop refers to the next closest router a packet can go through
    <br>
    <br>
    
-   **1.** Since *Client A* and *Client B* are on the same network, their IP address must represent the same network in accordance to the subnet mask.
+   **Interface A1.** Since *Client A* and *Client B* are on the same network, their IP address must represent the same network in accordance to the subnet mask.
 <br>
 The subnet mask is *255.255.255.0*, which means that the first 3 bytes of the IP address represent the network, and the 4th byte represents the host. Since we are on the same network, only the host can change. 
 <br>
