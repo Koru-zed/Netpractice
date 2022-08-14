@@ -31,8 +31,10 @@ As a result, high-level protocols that need to transmit data all use TCP Protoco
 ### IP Address
 
    <br>
+   <p align="center">
    <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/IP_addressing.jpeg?raw=true" alt="IP">
-   <br>
+   </p>
+   </br>
 
 IP is part of an internet protocol suite, which also includes the transmission control protocol. Together, these two are known as TCP/IP. The internet protocol suite governs rules for packetizing, addressing, transmitting, routing, and receiving data over networks.
 
@@ -44,7 +46,7 @@ An IP address has two parts; one part identifies the host such as a computer or 
 
    <br>
    <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
-   <br>
+   </br>
 
 ### IPv4 vs. IPv6
 
@@ -52,7 +54,7 @@ IP addresses come in 2 versions--IPv4 and IPv6:
 
    <br>
    <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
-   <br>
+   </br>
 
 Internet Protocol version 4 (IPv4) defines an IP address as a 32-bit number. However, because of the growth of the Internet and the depletion of available IPv4 addresses, a new version of IP (IPv6), using 128 bits for the IP address, was standardized in 1998. However, only IPv4 addresses are used in NetPractice.
 
@@ -74,7 +76,7 @@ When a network is connected to the internet, it cannot use an IP address from th
 
    <br>
    <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/subent_mask.png?raw=true" alt="subnet mask">
-   <br>
+   </br>
 
 A subnet mask is a 32 bits (4 bytes) address used to distinguish between a network address and a host address in the IP address. It defines the range of IP addresses that can be used within a network or a subnet.
 
