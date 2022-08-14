@@ -31,7 +31,7 @@ As a result, high-level protocols that need to transmit data all use TCP Protoco
 ### IP Address
 
    <br>
-   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/IP_addressing.jpeg?raw=true" alt="IP">
    <br>
 
 IP is part of an internet protocol suite, which also includes the transmission control protocol. Together, these two are known as TCP/IP. The internet protocol suite governs rules for packetizing, addressing, transmitting, routing, and receiving data over networks.
