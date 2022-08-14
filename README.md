@@ -20,7 +20,7 @@ You will have to complete 10 levels :   [Levels](#levels)
 ### TCP
 
    <br>
-   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/tcp-vs-udp-communications.png?raw=true" alt="TCP">
    <br>
 
 TCP stands for Transmission Control Protocol a communications standard that enables application programs and computing devices to exchange messages over a network. It is designed to send packets across the internet and ensure the successful delivery of data and messages over networks.
@@ -31,7 +31,7 @@ As a result, high-level protocols that need to transmit data all use TCP Protoco
 ### IP Address
 
    <br>
-   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/IP_addressing.jpeg?raw=true" alt="IP">
    <br>
 
 IP is part of an internet protocol suite, which also includes the transmission control protocol. Together, these two are known as TCP/IP. The internet protocol suite governs rules for packetizing, addressing, transmitting, routing, and receiving data over networks.
