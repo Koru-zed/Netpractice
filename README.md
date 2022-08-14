@@ -65,7 +65,7 @@ An IP address has two parts; one part identifies the host such as a computer or 
 IP addresses come in 2 versions--IPv4 and IPv6:
 
    <br>
-      <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/IPv4_IPv6.png?raw=true" alt="IPv4 vs IPv6">
+      <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/IPv4-vs-IPv6-FR.png?raw=true" alt="IPv4 vs IPv6">
    </br>
 
 Internet Protocol version 4 (IPv4) defines an IP address as a 32-bit number. However, because of the growth of the Internet and the depletion of available IPv4 addresses, a new version of IP (IPv6), using 128 bits for the IP address, was standardized in 1998. However, only IPv4 addresses are used in NetPractice.
