@@ -457,26 +457,26 @@ The answers can then be any addresses, as long as they meet the following condit
   <br>
   <br>
 
-  **1.** We have 3 separate networks:
+ We have 3 separate networks:
   <br>
 
-  1. Between *Client A* and *Router R1*.
-  2. Between *Router R1* and *Router R2*.
-  3. Between *Router R2* and *Client C*.
+  1. Between *Client A* and *Router R1* (Interface R11).
+  2. Between *Router R1* (Interface R12) and *Router R2* (Interface R21).
+  3. Between *Router R2* (Interface R22) and *Client C*.
 
-  For *Interface A1*, we cannot chose our IP address freely since the IP of *Interface R11* is already entered. Also, if we give it a mask of */24*, the IP address range will overlap with the range of *Interface R12*, which is already entered. They would both be in the range of *93.198.14.0 - 93.198.14.255*.
+  For *Interface A1*, we cannot chose our IP address freely since the IP of *Interface R11* is already entered. Also, if we give it a mask of */24*, the IP address range will overlap with the range of *Interface R12*, which is already entered. They would both be in the range of ``90.198.14.0 - 90.198.14.255``.
   <br>
   <br>
-  Since we need addresses for 3 separate networks, it is convenient to split the last bytes of the address in 4 or more address ranges. We do this by using the mask of */26* or higher. The mask of */28* for example will give us 16 ranges, from which we use the following 3:
+  Since we need addresses for 3 separate networks, it is convenient to split the last bytes of the address in 4 or more address ranges. We do this by using the mask of `/26` or higher. The mask of */28* for example will give us 16 ranges, from which we use the following 3:
   ```
-  93.198.14.1 - 93.198.14.14    (Client A to Router R1)
-  93.198.14.65 - 93.198.14.78   (Router R1 to Router R2)
-  93.198.14.241 - 93.198.14.254 (Router R2 to Client C)
+  90.198.14.1 - 90.198.14.14    (Client A to Router R1)
+  90.198.14.65 - 90.198.14.78   (Router R1 to Router R2)
+  90.198.14.241 - 90.198.14.254 (Router R2 to Client C)
   ```
 
   To calculate the possible ranges of a mask:
   <br>
-  https://www.calculator.net/ip-subnet-calculator.html?cclass=any&csubnet=28&cip=93.198.14.2&ctype=ipv4&printit=0&x=97&y=13
+  [https://www.calculator.net/bandwidth-calculator.html](https://www.calculator.net/ip-subnet-calculator.html?c6subnet=64&c6ip=2001%3Adb8%3A85a3%3A%3A8a2e%3A370%3A7334&ctype=ipv6&printit=0&x=69&y=28#ipv6)
    
   <div align="right">
    <b><a href="#top">↥ back to top</a></b>
@@ -494,32 +494,35 @@ The answers can then be any addresses, as long as they meet the following condit
    <br>
    
    
-  **1.** The hosts *Client C* and *Client D* will send packets to the internet, then the internet will respond by sending packets all the way back to the initial sender. To send these packets, the internet uses the destination *49.175.13.0/26* to send the packets to the networks in the range of ``49.175.13.0 - 49.175.13.63``.
+  **Internet.** The hosts *Client C* and *Client D* will send packets to the internet, then the internet will respond by sending packets all the way back to the initial sender. To send these packets, the internet uses the destination *49.175.13.0/26* to send the packets to the networks in the range of ``139.84.118.17.0 - 139.84.118.17.63``.
   <br>
   <br>
   All the receiving networks must be in this range, without overlapping each other.
   <br>
   <br>
 
-  **2.** On *Interface R23* and *Interface R22* we use the mask *255.255.255.240* (or */28*), to conveniently split the range of */26* from the destination address, into 4 separate ranges. This separation of 4 is necessary since we have the following 3 networks that must not overlap:
+  **Router R2.** On *Interface R23* and *Interface R22* we use the mask `255.255.255.240` (or */28*), to conveniently split the range of */26* from the destination address, into 4 separate ranges. This separation of 4 is necessary since we have the following 3 networks that must not overlap:
   <br>
 
-  1. *Router R1* to *Router R2*.
-  2. *Router R2* to *Client C*.
-  3. *Router R2* to *Client D*.
+  1. *Router R1* (router R13) to *Router R2* (router R21).
+  2. *Router R2* (router R22) to *Client C*.
+  3. *Router R2* (router R23) to *Client D*.
 
   Each of these networks can then be attributed one of the following IP range with a mask of */28*:
   ```
-  49.175.13.0 - 49.175.13.15
-  49.175.13.16 - 49.175.13.31
-  49.175.13.32 - 49.175.13.47
-  49.175.13.48 - 49.175.13.63
+  139.84.118.0 - 139.84.118.15
+  139.84.118.16 - 139.84.118.31
+  139.84.118.32 - 139.84.118.47
+  139.84.118.48 - 139.84.118.63
   ```
   Note that the network address (first) and the broadcast address (last) must be excluded from each range.
   <br>
   <br>
 
-**3.** The destination and next hop for the internet is already entered. We only need to enter the next hop for the *Router R2*, which is the IP on the *Interface R21*.
+**Router R1** The destination and next hop for the internet is already entered. We only need to enter the next hop for the *Router R2*, which is the IP on the *Interface R21*.
+   ```
+   139.84.118.61
+   ```
    
   <div align="right">
    <b><a href="#top">↥ back to top</a></b>
@@ -543,7 +546,7 @@ The answers can then be any addresses, as long as they meet the following condit
   <br>
   <br>
 
-  **1.** **Goal 3** states that we must connect *meson* with the *internet*. The *internet* will then have to respond to *meson*, so we enter *meson's* network address in the *internet's* destination.
+  **1** **Goal 3** states that we must connect *meson* with the *internet*. The *internet* will then have to respond to *meson*, so we enter *meson's* network address in the *internet's* destination.
   <br>
   <br>
   **Goal 6** states that we must connect *cation* with the *internet*, so we enter *cation's* network address in the *internet's* destination.
@@ -568,20 +571,20 @@ The answers can then be any addresses, as long as they meet the following condit
    In this level, there are 4 different networks:
   <br>
 
-  1. *Router R1* to *Switch S1*
-  2. *Router R1* to *Router R2*
-  3. *Router R2* to *Client H4*
-  4. *Router R2* to *Client H3*
+  1. *Router R1* (router R11) to *Switch S1*
+  2. *Router R1* (router R13) to *Router R2* (router R21)
+  3. *Router R2* (router R23) to *Client H4*
+  4. *Router R2* (router R22) to *Client H3*
   <br>
 
-  **1.** The internet must be able to send its packets to all the hosts, so its destination must cover the range of networks of all the hosts.
+  **Internet.** The internet must be able to send its packets to all the hosts, so its destination must cover the range of networks of all the hosts.
   <br>
   <br>
-  *Interface R11* and *Interface R13* already have an IP adress entered. This IP address only differs in its last byte. *Interface R11* has for last byte **1**, and *Interface R13* has for last byte **254**. To cover this wide range to IP addresses, we take a mask of **/24** for the *internet's* destination. This destination will cover a range of ``70.101.30.0 - 70.101.30.255``.
+  *Interface R11* and *Interface R13* already have an IP adress entered. This IP address only differs in its last byte. *Interface R11* has for last byte **1**, and *Interface R13* has for last byte **254**. To cover this wide range to IP addresses, we take a mask of **/24** for the *internet's* destination. This destination will cover a range of ``170.235.26.0 - 170.235.26.255``.
   <br>
   <br>
 
-  **2.** When chosing the IP addresses, we must make sure of 2 things:
+  **Important.** When chosing the IP addresses, we must make sure of 2 things:
   <br>
 
   1. The IP address is covered by the *internet* destination.
@@ -591,12 +594,12 @@ The answers can then be any addresses, as long as they meet the following condit
   With the IP addresses already entered (greyed out), let's examine the ranges covered by the various networks:
   <br>
 
-  1. *Router R1* to *Switch S1* - Covers the range **70.101.30.0 - 70.101.30.127** (mask /25).
-  2. *Router R2* to *Client H4* - Covers the range **70.101.30.128 - 70.101.30.191** (mask /26).
-  3. *Router R1* to *Router R2* - Covers the range **70.101.30.252 - 70.101.30.255** (mask /30).
-  4. *Router R2* to *Client H3* - ??? (mask ???).
+  1. *Router R1* (router R11) to *Switch S1* - Covers the range ``170.235.26.0 - 170.235.26.127`` (mask /25).
+  2. *Router R2* (router R23) to *Client H4* - Covers the range ``170.235.26.128 - 170.235.26.191`` (mask /26).
+  3. *Router R1* (router R13) to *Router R2* (router R21) - Covers the range ``170.235.26.252 - 170.235.26.255`` (mask /30).
+  4. *Router R2* (router R22) to *Client H3* - ??? (mask ???).
 
-  The only IP addresses left for the network "Router R2 to Client H3" are **70.101.30.192 - 70.101.30.251**. We can pick any mask that will let us take 2 IP addresses from that range to put in *Interface R22* and *Interface R31*.
+  The only IP addresses left for the network "Router R2 to Client H3" are ``170.235.26.192 - 170.235.26.251``. We can pick any mask that will let us take 2 IP addresses from that range to put in *Interface R22* and *Interface R31*.
 
    
   <div align="right">
