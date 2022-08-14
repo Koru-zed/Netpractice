@@ -156,6 +156,7 @@ Therefore, the mask in the example above of `255.255.255.128`, is equivalent to 
       <p align="left">
          <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/switch real.webp?raw=true" alt="switch">
       </p>
+      
       <p align="right">
          <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/switch.webp?raw=true" alt="switch">
       </p>
@@ -170,7 +171,13 @@ A switch connects multiple devices together in a single network. Unlike a router
 ### Router
 
    <br>
-   <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/router.jpg?raw=true" alt="router">
+      <p align="left">
+         <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/router.jpg?raw=true" alt="router">
+      </p>
+      
+      <p align="left">
+         <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/router.png?raw=true" alt="router">
+      </p>
    <br>
 
 Just as the switch connects multiple devices on a single network, the router connects multiple networks together. The router has an interface for each network it connects to.
