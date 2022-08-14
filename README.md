@@ -8,7 +8,7 @@ You will have to configure small-scale networks. To do so, it will be necessary 
 *  [Important concepts](#important-concepts)
     *    [TCP](#tcp)  
     *    [IP address](#ip-address)
-    *    [TCP_IP model](#tcp_ip model)
+    *    [TCP/IP model](#tcp/ip-model)
     *    [Subnet mask](#subnet-mask)
     *    [Switch](#switch)
     *    [Router](#router)
