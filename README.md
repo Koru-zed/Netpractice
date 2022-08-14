@@ -1,4 +1,4 @@
-# Netpracticejgj
+# Netpractice
 
 ## Intoduction
 
@@ -22,9 +22,7 @@ TCP stands for Transmission Control Protocol a communications standard that enab
 
 TCP organizes data so that it can be transmitted between a server and a client. It guarantees the integrity of the data being communicated over a network. Before it transmits data, TCP establishes a connection between a source and its destination, which it ensures remains live until communication begins. It then breaks large amounts of data into smaller packets, while ensuring data integrity is in place throughout the process, toensures end-to-end data delivery without loss any of data.
 As a result, high-level protocols that need to transmit data all use TCP Protocol.Examples include peer-to-peer sharing methods like File Transfer Protocol (FTP), Secure Shell (SSH)...
-<b>
-  <div align="right">
-   <b><a href="#top">↥ back to top</a></b>
+
 ### IP Address
 
 IP is part of an internet protocol suite, which also includes the transmission control protocol. Together, these two are known as [TCP/IP](#TCP/IP). The internet protocol suite governs rules for packetizing, addressing, transmitting, routing, and receiving data over networks.
@@ -33,10 +31,6 @@ IP addressing is a logical means of assigning addresses to devices on a network.
 
 An IP address has two parts; one part identifies the host such as a computer or other device, and the other part identifies the network it belongs to. TCP/IP uses a [subnet mask](#subnet-mask) to separate them.
 
-<b>
-  <div align="right">
-   <b><a href="#top">↥ back to top</a>
-</b>
 
 ### IPv4 vs. IPv6
 
@@ -60,11 +54,6 @@ When a network is connected to the internet, it cannot use an IP address from th
 10.0.0.0 – 10.255.255.255     (16,777,216 IP addresses)
 ↥ back to top
 ```
-<b>
-  <div align="right">
-   <b><a href="#top">↥ back to top</a>
-</b>
-
 # Subnet Mask
 
 ///////
@@ -121,10 +110,7 @@ The mask can also be represented with the Classless Inter-Domain Routing (CIDR).
 
 Therefore, the mask in the example above of `255.255.255.128`, is equivalent to a mask of /25 using the CIDR notation, since 25 bits out of 32 bits represent the network address.
 
-<b>
-  <div align="right">
-   <b><a href="#top">↥ back to top</a>
-</b>
+↥ back to top
 
 ### Switch
 
@@ -133,10 +119,7 @@ Therefore, the mask in the example above of `255.255.255.128`, is equivalent to 
 
 A switch connects multiple devices together in a single network. Unlike a router, the switch does not have any interfaces since it only distibutes packets to its local network, and cannot talk directly to a network outside of its own.
 
-<b>
-  <div align="right">
-   <b><a href="#top">↥ back to top</a>
-</b>
+↥ back to top
 
 ### Router
 
@@ -147,11 +130,7 @@ Just as the switch connects multiple devices on a single network, the router con
 
 Since the router separates different networks, the range of possible IP addresses on one of its interface must not overlap with the range of its other interfaces. An overlap in the IP address range would imply that the interfaces are on the same network.
 
-<b>
-  <div align="right">
-   <b><a href="#top">↥ back to top</a>
-</b>
-     
+
 ### Routing Table
 //////
 
@@ -162,11 +141,6 @@ Destination: The destination specifies a network address on which a host is the 
 
 Next hop: The next hop refers to the next closest router a packet can go through. It is the IP address of the next router on the packet's way. Every single router maintains its routing table with a next hop address.
 
- <b>
-  <div align="right">
-   <b><a href="#top">↥ back to top</a>
-</b>
-     
 ## Levels
 
 <details>
@@ -196,7 +170,7 @@ The solution will be anything in the range of **211.191.0.0 - 211.191.255.255**,
    <b><a href="#top">↥ back to top</a></b>
 </div>
 </br>
-</details> 
+</details>
 
 ---
 
@@ -570,5 +544,5 @@ The answers can then be any addresses, as long as they meet the following condit
   <div align="right">
    <b><a href="#top">↥ back to top</a></b>
 </div>
-</br> 
+</br>
 </details>
