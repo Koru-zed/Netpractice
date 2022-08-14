@@ -8,7 +8,7 @@ You will have to configure small-scale networks. To do so, it will be necessary 
 *  [Important concepts](#important-concepts)
     *    [TCP](#tcp)  
     *    [IP address](#ip-address)
-    *    [TCP/IP model](#tcp/ip model)
+    *    [TCP_IP model](#tcp_ip model)
     *    [Subnet mask](#subnet-mask)
     *    [Switch](#switch)
     *    [Router](#router)
@@ -50,7 +50,7 @@ An IP address has two parts; one part identifies the host such as a computer or 
   <b><a href="#top">↥ back to top</a></b>
 </div>
 
-### TCP/IP model
+### TCP_IP model
 
    <br>
       <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/tcp_ip_model.png?raw=true" alt="tcp_ip_model">
