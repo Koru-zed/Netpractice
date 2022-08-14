@@ -570,5 +570,5 @@ The answers can then be any addresses, as long as they meet the following condit
   <div align="right">
    <b><a href="#top">↥ back to top</a></b>
 </div>
-</br>
+</br> 
 </details>
