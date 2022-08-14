@@ -20,7 +20,7 @@ You will have to complete 10 levels :   [Levels](#levels)
 ### TCP
 
    <br>
-   <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/tcp-vs-udp-communications.png.png?raw=true" alt="TCP">
+   <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/tcp-vs-udp-communications.png?raw=true" alt="TCP">
    <br>
 
 TCP stands for Transmission Control Protocol a communications standard that enables application programs and computing devices to exchange messages over a network. It is designed to send packets across the internet and ensure the successful delivery of data and messages over networks.
