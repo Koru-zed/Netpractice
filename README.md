@@ -131,7 +131,9 @@ The mask can also be represented with the Classless Inter-Domain Routing (CIDR).
 
 Therefore, the mask in the example above of `255.255.255.128`, is equivalent to a mask of /25 using the CIDR notation, since 25 bits out of 32 bits represent the network address.
 
-↥ back to top
+<div align="right">
+  <b><a href="#top">↥ back to top</a></b>
+</div>
 
 ### Switch
 
