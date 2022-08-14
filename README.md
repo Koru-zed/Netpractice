@@ -73,7 +73,7 @@ When a network is connected to the internet, it cannot use an IP address from th
 # Subnet Mask
 
    <br>
-   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/subent_mask.png?raw=true" alt="subnet mask">
    <br>
 
 A subnet mask is a 32 bits (4 bytes) address used to distinguish between a network address and a host address in the IP address. It defines the range of IP addresses that can be used within a network or a subnet.
@@ -132,7 +132,8 @@ Therefore, the mask in the example above of `255.255.255.128`, is equivalent to 
 ### Switch
 
    <br>
-   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/switch real.webp?raw=true" alt="switch">
+    <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/switch.webp?raw=true" alt="switch">
    <br>
 
 A switch connects multiple devices together in a single network. Unlike a router, the switch does not have any interfaces since it only distibutes packets to its local network, and cannot talk directly to a network outside of its own.
