@@ -8,6 +8,7 @@ You will have to configure small-scale networks. To do so, it will be necessary 
 *  [Important concepts](#important-concepts)
     *    [TCP](#tcp)  
     *    [IP address](#ip-address)
+    *    [TCP/IP model](#tcp/ip model)
     *    [Subnet mask](#subnet-mask)
     *    [Switch](#switch)
     *    [Router](#router)
@@ -18,6 +19,10 @@ You will have to complete 10 levels :   [Levels](#levels)
 
 ### TCP
 
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <\br>
+
 TCP stands for Transmission Control Protocol a communications standard that enables application programs and computing devices to exchange messages over a network. It is designed to send packets across the internet and ensure the successful delivery of data and messages over networks.
 
 TCP organizes data so that it can be transmitted between a server and a client. It guarantees the integrity of the data being communicated over a network. Before it transmits data, TCP establishes a connection between a source and its destination, which it ensures remains live until communication begins. It then breaks large amounts of data into smaller packets, while ensuring data integrity is in place throughout the process, toensures end-to-end data delivery without loss any of data.
@@ -25,18 +30,29 @@ As a result, high-level protocols that need to transmit data all use TCP Protoco
 
 ### IP Address
 
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <\br>
+
 IP is part of an internet protocol suite, which also includes the transmission control protocol. Together, these two are known as TCP/IP. The internet protocol suite governs rules for packetizing, addressing, transmitting, routing, and receiving data over networks.
 
 IP addressing is a logical means of assigning addresses to devices on a network. Each device connected to the internet requires a unique IP address.
 
 An IP address has two parts; one part identifies the host such as a computer or other device, and the other part identifies the network it belongs to. TCP/IP uses a [subnet mask](#subnet-mask) to separate them.
 
+### TCP/IP model
+
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <\br>
 
 ### IPv4 vs. IPv6
 
 IP addresses come in 2 versions--IPv4 and IPv6:
-/////
 
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <\br>
 
 Internet Protocol version 4 (IPv4) defines an IP address as a 32-bit number. However, because of the growth of the Internet and the depletion of available IPv4 addresses, a new version of IP (IPv6), using 128 bits for the IP address, was standardized in 1998. However, only IPv4 addresses are used in NetPractice.
 
@@ -56,8 +72,9 @@ When a network is connected to the internet, it cannot use an IP address from th
 ```
 # Subnet Mask
 
-///////
-
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <\br>
 
 A subnet mask is a 32 bits (4 bytes) address used to distinguish between a network address and a host address in the IP address. It defines the range of IP addresses that can be used within a network or a subnet.
 
@@ -114,8 +131,9 @@ Therefore, the mask in the example above of `255.255.255.128`, is equivalent to 
 
 ### Switch
 
-
-///////
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <\br>
 
 A switch connects multiple devices together in a single network. Unlike a router, the switch does not have any interfaces since it only distibutes packets to its local network, and cannot talk directly to a network outside of its own.
 
@@ -123,8 +141,9 @@ A switch connects multiple devices together in a single network. Unlike a router
 
 ### Router
 
-///////
-
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <\br>
 
 Just as the switch connects multiple devices on a single network, the router connects multiple networks together. The router has an interface for each network it connects to.
 
@@ -132,9 +151,11 @@ Since the router separates different networks, the range of possible IP addresse
 
 
 ### Routing Table
-//////
 
-
+   <br>
+   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <\br>
+   
 A routing table is a data table stored in a router or a network host that lists the routes to particular network destinations. In NetPractice, the routing table consists of 2 elements:
 
 Destination: The destination specifies a network address on which a host is the end target of the packets. The route of default or 0.0.0.0/0, is the route that takes effect when no other route is available for an IP destination address. The default route will use the next-hop address to send the packets on their way without giving a specific destination. The default route will match any network.
