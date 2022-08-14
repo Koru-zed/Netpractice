@@ -32,7 +32,7 @@ As a result, high-level protocols that need to transmit data all use TCP Protoco
 
    <br>
    <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
-   <\br>
+   <br>
 
 IP is part of an internet protocol suite, which also includes the transmission control protocol. Together, these two are known as TCP/IP. The internet protocol suite governs rules for packetizing, addressing, transmitting, routing, and receiving data over networks.
 
@@ -44,7 +44,7 @@ An IP address has two parts; one part identifies the host such as a computer or 
 
    <br>
    <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
-   <\br>
+   <br>
 
 ### IPv4 vs. IPv6
 
@@ -52,7 +52,7 @@ IP addresses come in 2 versions--IPv4 and IPv6:
 
    <br>
    <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
-   <\br>
+   <br>
 
 Internet Protocol version 4 (IPv4) defines an IP address as a 32-bit number. However, because of the growth of the Internet and the depletion of available IPv4 addresses, a new version of IP (IPv6), using 128 bits for the IP address, was standardized in 1998. However, only IPv4 addresses are used in NetPractice.
 
@@ -74,7 +74,7 @@ When a network is connected to the internet, it cannot use an IP address from th
 
    <br>
    <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
-   <\br>
+   <br>
 
 A subnet mask is a 32 bits (4 bytes) address used to distinguish between a network address and a host address in the IP address. It defines the range of IP addresses that can be used within a network or a subnet.
 
@@ -133,7 +133,7 @@ Therefore, the mask in the example above of `255.255.255.128`, is equivalent to 
 
    <br>
    <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
-   <\br>
+   <br>
 
 A switch connects multiple devices together in a single network. Unlike a router, the switch does not have any interfaces since it only distibutes packets to its local network, and cannot talk directly to a network outside of its own.
 
@@ -143,7 +143,7 @@ A switch connects multiple devices together in a single network. Unlike a router
 
    <br>
    <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
-   <\br>
+   <br>
 
 Just as the switch connects multiple devices on a single network, the router connects multiple networks together. The router has an interface for each network it connects to.
 
@@ -154,7 +154,7 @@ Since the router separates different networks, the range of possible IP addresse
 
    <br>
    <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
-   <\br>
+   <br>
    
 A routing table is a data table stored in a router or a network host that lists the routes to particular network destinations. In NetPractice, the routing table consists of 2 elements:
 
