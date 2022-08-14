@@ -53,19 +53,19 @@ An IP address has two parts; one part identifies the host such as a computer or 
 ### TCP/IP model
 
    <br>
-      <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+      <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/tcp_ip_model.png?raw=true" alt="tcp_ip_model">
    </br>
 
 <div align="right">
   <b><a href="#top">↥ back to top</a></b>
 </div>
 
-### IPv4 vs. IPv6
+### IPv4 vs IPv6
 
 IP addresses come in 2 versions--IPv4 and IPv6:
 
    <br>
-      <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+      <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/IPv4_IPv6.png?raw=true" alt="IPv4 vs IPv6">
    </br>
 
 Internet Protocol version 4 (IPv4) defines an IP address as a 32-bit number. However, because of the growth of the Internet and the depletion of available IPv4 addresses, a new version of IP (IPv6), using 128 bits for the IP address, was standardized in 1998. However, only IPv4 addresses are used in NetPractice.
@@ -171,7 +171,7 @@ A switch connects multiple devices together in a single network. Unlike a router
 ### Router
 
    <br>
-   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/router.jpg?raw=true" alt="router">
    <br>
 
 Just as the switch connects multiple devices on a single network, the router connects multiple networks together. The router has an interface for each network it connects to.
@@ -185,7 +185,7 @@ Since the router separates different networks, the range of possible IP addresse
 ### Routing Table
 
    <br>
-   <img src="https://github.com/K-zew/Netpractice/blob/main/level3/level3.png?raw=true" alt="level3">
+   <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/routing_table.png?raw=true" alt="routing_table">
    <br>
    
 A routing table is a data table stored in a router or a network host that lists the routes to particular network destinations. In NetPractice, the routing table consists of 2 elements:
