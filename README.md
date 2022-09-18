@@ -248,32 +248,34 @@ The solution will be anything in the range of **211.191.0.0 - 211.191.255.255**,
 <br>
 The solution can only be `255.255.255.224`.
 
-**Interface A1.** To understand the subnet mask of `255.255.255.224`, let's look at it in binary form, along with the IP `192.168.20.222` of *Client B*:
+**Interface A1.** To understand the subnet mask of `255.255.255.224`, let's look at it in binary form, along with the IP `192.168.56.222` of *Client B*:
 
 <center>
 
 ```
 MASK: 11111111.11111111.11111111.11100000
-IP:   11000000.10101000.00010100.11011101
+IP:   11000110.00010000.00111000.11011110
 ```
 </center>
 As we can see, the first 27 bits represent the IP address, while only the last 5 bits represent the host address.
 <br>
-All these 27 bits representing the network must stay the same in the IP addresses of hosts on the same network. To get the answer, we can only change the last 5 bits.
+All these 27 bits representing the network must stay the same in the IP addresses of hosts on the same network. To get the answer, we can only change the last (5 bits = 32 | 32-2 =  30).
 <br>
 <br>
 The answer is in the range of:
 
 ```
-BIN:  11000000.10101000.00010100.11000000 - 11000000.10101000.00010100.11011111
+BIN:  11000000.10101000.00111000.11000000 - 11000000.10101000.00111000.11011111
 or
-DEC:  192.168.20.192 - 192.168.20.223
+DEC:  192.168.56.192 - 192.168.56.223
 ```
+because `192.168.56.222` in the range .
+
 Excluding:
 <br>
-* **11000000.10101000.00010100.11000000:** Represents the network address (notice all 0 in the last 5 bits).
-* **11000000.10101000.00010100.11011111:** Represents the broadcast address (notice all 1 in the last 5 bits).
-* **11000000.10101000.00010100.11011110:** *Client B* already has that address.
+* **11000000.10101000.00111000.11000000:** Represents the network address (notice all 0 in the last 5 bits).
+* **11000000.10101000.00111000.11011111:** Represents the broadcast address (notice all 1 in the last 5 bits).
+* **11000000.10101000.00111000.11011110:** *Client B* already has that address.
 
 **Inreface D1/C1.** Here we are introduced to the slash "/" notation for the subnet mask on *Interface D1*. A subnet mask of */30* means that the first 30 bits of the IP address represent the network address, and the remaining 2 bits represent the host address:
 <center>
@@ -291,6 +293,10 @@ The answers can then be any addresses, as long as they meet the following condit
 * The host bits (last 2 bits) cannot be all 1, nor all 0.
 * *Client D* and *Client C* do not have identical IP addresses.
    
+```
+like 1.1.0.1 and 1.1.0.2
+ or  1.1.0.253 and 1.1.0.254 ..... 
+```
   <div align="right">
    <b><a href="#top">↥ back to top</a></b>
 </div>
@@ -318,7 +324,8 @@ The answers can then be any addresses, as long as they meet the following condit
   <center>
 
   ```
-  104.198.241.0 - 104.198.241.128 
+  104.198.52.0 - 104.198.52.128
+  because of Interface 104.198.52.125 in tehe range .
   ```
   </center>
   Excluding of course the network address and the broadcast address.
@@ -343,7 +350,7 @@ The answers can then be any addresses, as long as they meet the following condit
   <br>
   <br>
 
-   Since none of the masks on *Interface B1*, *Interface A1*, and *Interface R1* are entered, we are free to chose our own subnet mask. A mask of **/24** is ideal as it leaves us with the entire 4th byte for the host address, and does not require binary calculations to find the range of possible host addresses.
+   Since none of the masks on *Interface B1*, *Interface A1*, and *Interface R1* are entered, we are free to chose our own subnet mask. A mask of **/24** is ideal as it leaves us with the entire 8th byte for the host address, and does not require binary calculations to find the range of possible host addresses.
   <br>
   <br>
   The IP address of *Interface B1* and *Interface R1* must have the same network address as the IP address of *Interface A1*. With a subnet of */24*, the possible range is:
@@ -428,13 +435,13 @@ The answers can then be any addresses, as long as they meet the following condit
   ```
   </center>
 
-  With a range of ``104.124.215.129 - 104.124.215`` or its host addresses.
+  With a range of ``104.124.215.129 - 104.124.255`` or its host addresses.
   <br>
   <br>
   We can now put this address of `104.124.215.128`in the Internet destination. The `25` following the destination address represents the mask applied to its address.
   <br>
   <br>
-  A destination of `104.124.215.227/25` is equivalent to the destination address *40.178.145.128/25*, since the mask of */25* will turn all the bits after the 25th to 0 to get the destination's network address.
+  A destination of `104.124.215.227/25` is equivalent to the destination address *104.124.215.128/25*, since the mask of */25* will turn all the bits after the 25th to 0 to get the destination's network address.
 
   ```
   104.124.215.?
@@ -500,7 +507,7 @@ The answers can then be any addresses, as long as they meet the following condit
    <br>
    
    
-  **Internet.** The hosts *Client C* and *Client D* will send packets to the internet, then the internet will respond by sending packets all the way back to the initial sender. To send these packets, the internet uses the destination *49.175.13.0/26* to send the packets to the networks in the range of ``139.84.118.17.0 - 139.84.118.17.63``.
+  **Internet.** The hosts *Client C* and *Client D* will send packets to the internet, then the internet will respond by sending packets all the way back to the initial sender. To send these packets, the internet uses the destination *139.84.118.0/26* to send the packets to the networks in the range of ``139.84.118.17.1 - 139.84.118.17.63``.
   <br>
   <br>
   All the receiving networks must be in this range, without overlapping each other.
