@@ -59,7 +59,7 @@ An IP address has two parts; one part identifies the host such as a computer or 
    * Explained :
    
    <br>
-      <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/tcp_ip_model.png?raw=true" alt="tcp_ip">
+      <img src="https://github.com/K-zew/Netpractice/blob/main/Imgs/tcp_ip.png?raw=true" alt="tcp_ip">
    </br>
 
 <div align="right">
